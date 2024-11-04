@@ -1,62 +1,57 @@
-Create Database LITA_Customer_Segmentation
+create database LITA_Sales_Analysis
 
-Select * from [dbo].[CustomerData] 
+SELECT * FROM [dbo].[SalesData]
 
-----Total number of customers from each region
-Select Region, COUNT(CustomerID) 
-As TotalCustomers
-From CustomerData
+-----Retrieve Total Sales for each Product
+SELECT [Product],
+  SUM (Quantity * UnitPrice) AS TotalSales
+FROM SalesData
+GROUP BY [Product]
+ORDER BY TotalSales DESC
+
+------number of sales transactions in each region
+select count(OrderID) as Sales_Transactions, Region from SalesData
+GROUP BY Region
+
+-----highest selling product by total sales value
+select Top 1 ([Product]), 
+Sum(Quantity * UnitPrice) as TotalSalesValue from salesdata
+Group by [Product]
+Order by 2 desc
+
+-----total revenue per product
+Select [Product],
+Sum(Quantity * UnitPrice) AS TotalRevenue
+FROM SalesData
+Group By [Product]
+
+-----monthly sales total for current year
+Select Month(OrderDate) as [Month],
+Sum(Quantity * UnitPrice) as MonthlyTotal
+From SalesData
+Where Year(OrderDate) = 2031
+Group BY Month(OrderDate)
+Order By [Month]
+
+------top 5 customers by total purchase amount
+Select Top 5 Customer_Id as [Customer ID],
+SUM(Quantity * UnitPrice) as TotalPurchaseAmount
+From SalesData
+Group by Customer_Id
+Order by 2 desc
+
+----percentage of total sales contributed by each region
+Select Region,
+Sum (Quantity * UnitPrice) As RegionalSales,
+(Sum (Quantity * UnitPrice) * 100 / 
+(Select Sum (Quantity * UnitPrice) From SalesData)) As SalesPercentage
+From SalesData
 Group By Region
 
------Most popular subscription type by the number of customers
-Select Top 1 (SubscriptionType) as SubscriptionType,
-Count(CustomerID) as TotalCustomers
-From CustomerData
-Group by SubscriptionType
-Order by 2 desc
-
------Customers who canceled their subscription within 6months
-Select CustomerID, SubscriptionType
-From CustomerData
-Where Canceled = '1' 
-And Datediff(Month,SubscriptionStart,SubscriptionEnd) <=6
-
-----Average subscription duration for all customers
-Select AVG(DurationDays) as AvgSubscriptionDurationDays
-From (Select 
-	  Datediff(Day, SubscriptionStart,
-             Case 
-			   When
-SubscriptionEnd IS NULL THEN GETDATE()
-               Else
-SubscriptionEnd
-             End) as DurationDays
-From CustomerData) as DurationTable
------Customers with subscriptions longer than 12 months
-Select CustomerID,
-       SubscriptionStart,
-	   SubscriptionEnd,
-	   Datediff(Day, SubscriptionStart, ISNULL(SubscriptionEnd,GETDATE()))
-as SubscriptionDurationDays
-From CustomerData
-Where Datediff(Day, SubscriptionStart, ISNULL(SubscriptionEnd,GETDATE())) > 365
-
------Total revenue by subscription type
-Select SubscriptionType,
-SUM(Revenue) as Total_Revenue
-From CustomerData
-Group by SubscriptionType
-
-----Top 3 regions by subcription cancellations
-Select Top 3 Region,
-Count(CustomerID) as Cancellation_Count
-From CustomerData
-Where Canceled = '1'
-Group by Region 
-Order by 2 desc
-
------Total number of active and cancelled subscriptions
-Select Canceled, Count(CustomerID)
-AS Subscription_Count
-From CustomerData
-Group by Canceled
+----products with no sales in the last quarter
+Select Distinct [Product]
+From SalesData
+Where [Product] Not In ( 
+   Select [Product] 
+   From SalesData
+   Where (OrderDate) >='2031-10-01' And OrderDate <= '2031-12-31')

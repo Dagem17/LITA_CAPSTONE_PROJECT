@@ -2,9 +2,9 @@
 
 ## Project Title : Sales Performance Analysis for a Retail Store
 
-[Tools Used](#tools-used)
-
 [Project Overview](#project-overview)
+
+[Tools Used](#tools-used)
 
 
 ### Project Overview
@@ -21,9 +21,6 @@ This Data Analysis project aims to analyze the sales performance of a retail sto
 
 - Power BI
   1.
-
-To build a compelling interactive dashboard in Power BI with insights from your sales data, let’s approach it as a storytelling exercise with clear business objectives. A story-driven dashboard should guide users through key insights, identify trends, and provide actionable information for decision-making. Here’s a suggested approach:
-
 
 ---
 

@@ -12,22 +12,24 @@ This Data Analysis project aims to analyze the sales performance of a retail sto
 
 ### Tools Used
 ---
-- Microsoft Excel [Download Here](https://www.microsoft.com)
+- Microsoft Excel [Download Here](https://www.microsoft.com/microsoft-365/excel)
   1. For Data Cleaning
   2. For Analysis
   3. For Data Visualization
 
 - SQL - Structured Query Language for Querying of Data
 
-- Power BI for data 
+- Power BI [Download Here](https://powerbi.microsoft.com/downloads/)
+  1. For Data Analysis
+  2. For Data Visualization
 
 -  GitHub for Portfolio Building
-  1.
 
 ---
-
-
----
+### Exploratory Data Analysis 
+This involved exploring of the sales data to;
+- Summarize total sales by product, region, and month
+- Calculate metrics such as average sales per product and total revenue by region total sales foor each region every month
 
 Dashboard Structure
 
@@ -191,7 +193,7 @@ This Data Analysis project aims to analyze the sales performance of a retail sto
 
 ### Tools Used
 ---
-- Microsoft Excel [Download Here](https://www.microsoft.com)
+- Microsoft Excel [Download Here](https://www.microsoft.com/microsoft-365/excel)
   1. For Data Cleaning
   2. For Analysis
   3. For Data Visualization

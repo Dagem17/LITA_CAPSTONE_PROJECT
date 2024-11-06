@@ -19,7 +19,9 @@ This Data Analysis project aims to analyze the sales performance of a retail sto
 
 - SQL - Structured Query Language for Querying of Data
 
-- Power BI
+- Power BI for data 
+
+-  GitHub for Portfolio Building
   1.
 
 ---
@@ -179,7 +181,30 @@ This approach will not only make the data accessible but also actionable, guidin
 
 ### Project 2 Title: Customer Segmentation  for a Subscription Service
 
+[Project Overview](#project-overview)
 
+[Tools Used](#tools-used)
+
+
+### Project Overview
+This Data Analysis project aims to analyze the sales performance of a retail store. By analyzing various parameters in the data received we seek to gather key insights such as top-selling products, regional performance, and monthly sales trends. With this information, we can optimize inventory, tailor marketing strategies, and allocate resources to high-growth areas.
+
+### Tools Used
+---
+- Microsoft Excel [Download Here](https://www.microsoft.com)
+  1. For Data Cleaning
+  2. For Analysis
+  3. For Data Visualization
+
+- SQL - Structured Query Language for Querying of Data
+
+- Power BI [Download Here](https://powerbi.microsoft.com/downloads/)
+  1. For Data Analysis
+  2. For Data Visualization
+
+-  GitHub for Portfolio Building
+
+  
 Creating a compelling story from the customer data in Power BI can help decision-makers understand critical areas, such as customer loyalty, revenue drivers, and cancellation patterns. Here’s a structured approach for building an interactive dashboard report and telling a story that aids in business decision-making:
 
 Step 1: Identify Key Story Themes and Metrics

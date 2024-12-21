@@ -28,7 +28,7 @@
 ## Project Overview
 ---
 
-This capstone project aims to analyze and visualize sales performance data for retail store and customer segmentation data for a subscription service. The analysis focuses on uncovering trends,identifying top-performing products and regions, and understanding customer behaviour to provide actionable insights for strategic decision-making.
+This capstone project aims to analyze and visualize sales performance data for retail store and customer segmentation data for a subscription service. The analysis focuses on uncovering trends, identifying top-performing products and regions, and understanding customer behaviour to provide actionable insights for strategic decision-making.
 
 ## Tools Used
 ---

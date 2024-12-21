@@ -3,7 +3,6 @@
 **A comprehensive analysis of retail sales performance and customer segmentation to derive actionable insights for business growth.**
 
 
-
 ## Table of Contents
 
 - [Project Overview](#project-overview)
@@ -18,18 +17,20 @@
 
   - [Key Insights](#key-insights)
 
-- [Project 2: Customer Segmentation Analysis](#proect-2-customer-segmentation-analysis)
+- [Project 2: Customer Segmentation Analysis](#project-2-customer-segmentation-analysis)
 
   - [Data Visualization](#data-visualization)
 
   - [Key Insights](#key-insights)
 
-### Project Overview
+- [Conclusion and Future Scope](#conclusion-and-future-scope)
+
+## Project Overview
 ---
 
 This capstone project aims to analyze and visualize sales performance data for retail store and customer segmentation data for a subscription service. The analysis focuses on uncovering trends,identifying top-performing products and regions, and understanding customer behaviour to provide actionable insights for strategic decision-making.
 
-### Tools Used
+## Tools Used
 ---
 
 The  following tools were utilized for data cleaning, analysis, and visualization:
@@ -59,7 +60,7 @@ The sales data was explored to;
 
 #### Pivot Table in Excel
 
-![Sales Pivot Table](https://github.com/user-attachments/assets/8d609552-1f32-4854-92aa-ab9999778e44)
+![Sales Pivot Table](https://github.com/user-attachments/assets/553cd7bb-93ff-4cf1-a817-eb5e7faffc09)
 *Figure 1: Pivot Table summarizing sales by product and region.*
 
 
@@ -76,11 +77,8 @@ The sales data was explored to;
 - Regional Performance: The South region drives the most sales, suggesting a robust customer base, while other regions have growth potential.
 - Seasonal Trends: Sales peak during certain months, highlighting the need for seasonal stock adjustments and marketing campaigns.
 
-We can use the insights to inform business decisions, whether for product strategies, inventory adjustments, or regional marketing plans.
 
----
-## Project 2 Title: Customer Segmentation  Analysis
-
+## Project 2: Customer Segmentation Analysis
 
 ### Data Visualization
 ---
@@ -96,6 +94,23 @@ We can use the insights to inform business decisions, whether for product strate
 
 - Popular Subscription Types: Basic subscriptions account for 49.9% of total revenue, making them a primary focus for customer acquisition and retention.
 - Regional Trends: All regions have an equal number of customers, but canacellation rates vary, requiring tailored retention strategies.
--  Cancellation Patterns: Higher cancellation rates occur
+-  Cancellation Patterns: Higher cancellation rates occur in specific regions or subscription types, indicating the need for improved customer support or offerings.
 
-The analysis showed that regions have the same number of customers, and the most popular subscription type is Basic. The revenue is largely driven by the Basic Subscription, contributing 49.90% of total revenue. Maintaining and expanding this subscription type while exploring options to grow lesser-performing types may enhance revenue diversification and stability. Leveraging these insights can guide future campaign planning.
+##   Conclusion and Future Scope
+
+### Conclusion
+---
+- The Sales Performance Analysis has provided valuable insights into sales trends, product performance, and regional sales dynamics, which can guide future inventory and marketing decisions.
+- The Customer Segmentation Analysis offers a deep understanding of customer behavior and preferences, identifying key trends in subscription cancellations and renewals.
+
+### Future Scope
+---
+*Sales Performance Analysis:*
+1. Develop predictive models to forecast future sales and optimize inventory management.
+2. Integrate competitor analysis to compare performance and identify growth opportunities.
+3. Conduct deeper sentiment analysis of customer feedback to enhance product offerings and marketing strategies.
+
+*Customer Segmentation:*
+1. Build cancellation prediction models to identify at-risk customers and implement retention strategies.
+2. Explore more customer segments based on engagement and behaviour patterns.
+3. Implement personalized marketing campaigns tailored to customer preferences and behaviour.

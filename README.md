@@ -1,23 +1,32 @@
-# **LITA CAPSTONE PROJECT**
+# **📊 Sales Performance Analysis for a Retail Store & Customer Segmentation**
 
-## Project Title : Sales Performance Analysis for a Retail Store
-
-[Project Overview](#project-overview)
-
-[Tools Used](#tools-used)
-
-[Exploratory Data Analysis](#exploratory-data-analysis)
-
-[Data Visualization](#data-visualization)
-
-[Data Analysis](data-analysis)
+**A comprehensive analysis of retail sales performance and customer segmentation to derive actionable insights for business growth.**
 
 
-### Project Overview
-This Data Analysis project aims to analyze the sales performance of a retail store. By analyzing various parameters in the data received we seek to gather key insights such as top-selling products, regional performance, and monthly sales trends. With this information, we can optimize inventory, tailor marketing strategies, and allocate resources to high-growth areas.
 
-### Tools Used
+## Table of Contents
+
+- [Project Overview](#project-overview)
+
+- [Tools Used](#tools-used)
+
+- [Project 1: Sales Performance Analysis](#project-1-sales-performance-analysis)
+
+- [Exploratory Data Analysis](#exploratory-data-analysis)
+
+- [Data Visualization](#data-visualization)
+
+- [Key Insights](#key-insights)
+
+- [Project 2: Customer Segmentation Analysis](#proect-2-customer-segmentation-analysis)
+
 ---
+### Project Overview
+
+
+---
+### Tools Used
+
 - Microsoft Excel [Download Here](https://www.microsoft.com/microsoft-365/excel)
   1. For Data Cleaning
   2. For Analysis

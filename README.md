@@ -74,8 +74,8 @@ The sales data was explored to;
 ---
 
 - Top-Selling Products: Shoes, Shirts and Hats contribute the highest revenue, indicating strong demand.
-- Regional Performance: The South region drives the most sales, suggesting a robust customer base, while other regions have growth potential.
-- Seasonal Trends: Sales peak during certain months, highlighting the need for seasonal stock adjustments and marketing campaigns.
+- Regional Performance: The south region generates the highest sales, indicating a strong customer base. This suggests that marketing efforts should focus on retaining these customers while exploring opportunities to grow in underperforming regions like the North and West.
+- Seasonal Trends: Sales peak in February and July, likely due to holiday and mid-year shopping trends. To capitalize on this, the business should launch targeted promotions and optimize inventory levels ahead of these months.
 
 
 ## Project 2: Customer Segmentation Analysis
